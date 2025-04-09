@@ -58,7 +58,7 @@ SEOBNRE\_AIq5e2 incorporates an advanced adaptive resampling technique during tr
 It achieves an impressive generation speed of 4.3 ms per waveform with a mean mismatch of $1.02 \times 10^{-3}$. 
 With the exceptional accuracy and rapid performance, {SEOBNRE\_AIq5e2} emerges as a promising waveform template for future analysis of eccentric gravitational wave data.
 
-**[Link to the paper](https://arxiv.org/abs/2403.06763)**
+**[Link to the paper](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.111.044016)**
 
 
 ## Citation
