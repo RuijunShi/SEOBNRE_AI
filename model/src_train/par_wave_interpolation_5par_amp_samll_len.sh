@@ -1,0 +1,17 @@
+python par_to_wave_interpolation_amp_spinz.py \
+    --gpu_id 2\
+    --parameter_dim 4\
+    --waveform_len 1024\
+    --encoder_dim 1024\
+    --hidden_dim 1024\
+    --hidden_layer 8\
+    --num_epoch 50000\
+    --batch_size 128\
+    --lr 1e-4\
+    --interpolation True\
+    --load_check_point False\
+    --dataset_path ./dataset/waveformv_ecc_v6_spinz.h5\
+    --model_checkpoint /workspace\
+    --save_checkpoint_path ./check_point/sample_1024_4096Hz_amp_debug_v6_par_nor.pth\
+    --save_imag_path ./image/sample_1024_4096Hz_amp_debug_v6_par_nor.png\
+    --save_log_path ./log/sample_1024_4096Hz_amp_debug_v6_par_nor.log
